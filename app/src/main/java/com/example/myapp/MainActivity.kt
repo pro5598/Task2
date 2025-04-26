@@ -207,7 +207,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
             Row (modifier = Modifier.padding(start = 0.dp, top = 10.dp)){
-                Card (modifier = Modifier.height(120.dp).fillMaxWidth().padding(start = 10.dp, end = 10.dp)) {
+                Card (modifier = Modifier.height(100.dp).fillMaxWidth().padding(start = 10.dp, end = 10.dp)) {
                     Row (modifier  = Modifier.padding(start =20.dp)){
                         Image(
                             painter = painterResource(R.drawable.settings),

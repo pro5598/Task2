@@ -72,7 +72,7 @@ class MainActivity : ComponentActivity() {
             ){
                 Spacer(modifier = Modifier.width(320.dp))
                 Image (
-                    painter = painterResource(R.drawable.profile), contentDescription = null,
+                    painter = painterResource(R.drawable.profile2), contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
                         .height(60.dp)
